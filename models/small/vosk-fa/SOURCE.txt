@@ -1,0 +1,3 @@
+Official model: https://alphacephei.com/vosk/models/vosk-model-small-fa-0.42.zip
+License: Apache-2.0 (Vosk model catalogue)
+Archive SHA256: 977cb5faa538f3a835ccfd35f5f6d8284b5c450b89c700b9bd4736b66536ad46

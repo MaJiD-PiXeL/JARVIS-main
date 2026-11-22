@@ -1,0 +1,35 @@
+assistant:
+  language: fa
+  wakeword: "جارویس"
+  wakeword_aliases: ["جارویس", "جارویز", "جار ویس", "جرویس", "سرویس", "jarvis"]
+  command_timeout: 15
+  confidence_threshold: 85
+
+audio:
+  model_path: "models/small/vosk-fa"
+  microphone_index: null
+  microphone_sensitivity: 2.5
+  silence_timeout: 1.2
+  input_gain: 1.0
+  command_grammar: true
+  min_confidence: 0.55
+
+# edge: آنلاین؛ متن پاسخ برای ساخت صدا ارسال می‌شود.
+# system: آفلاین؛ نیازمند صدای فارسی نصب‌شده در ویندوز.
+tts:
+  engine: edge
+  voice: "fa-IR-FaridNeural"
+  rate: "+0%"
+  system_voice_id: ""
+
+ai:
+  enabled: true
+  provider: gemini
+  api_key: ""
+  model: "gemini-3-flash-preview"
+
+tasks:
+  local_model: "qwen3:4b-instruct"
+
+music:
+  path: null

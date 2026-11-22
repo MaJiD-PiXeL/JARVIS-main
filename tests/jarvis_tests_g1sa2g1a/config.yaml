@@ -1,0 +1,28 @@
+assistant:
+  language: fa
+  wakeword: جارویس
+  wakeword_aliases:
+  - جارویس
+  - جارویز
+  - جار ویس
+  - جرویس
+  - jarvis
+  command_timeout: 15
+  confidence_threshold: 85
+audio:
+  model_path: models/small/vosk-fa
+  microphone_index: null
+  microphone_sensitivity: 2.5
+  silence_timeout: 1.2
+tts:
+  engine: edge
+  voice: fa-IR-FaridNeural
+  rate: +0%
+  system_voice_id: ''
+ai:
+  enabled: true
+  provider: gemini
+  api_key: ''
+  model: gemini-3-flash-preview
+music:
+  path: null

@@ -1,0 +1,15 @@
+# Runtime dependencies; keep aligned with pyproject.toml.
+PySide6-Essentials>=6.8,<7
+comtypes>=1.4.15
+edge-tts>=7.3.1,<8
+google-genai>=1.60.0,<2
+jdatetime>=5.2.0
+numpy>=2.4.1
+psutil>=7.2.0
+pycaw>=20251023
+python-dotenv>=1.2.1
+pyttsx3>=2.99
+PyYAML>=6.0.3
+rapidfuzz>=3.14.3
+sounddevice>=0.5.4
+vosk>=0.3.45
